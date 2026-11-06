@@ -1,0 +1,32 @@
+{
+  "instructions": "这是空白结构模板，不是实际资料。填入可核查原文并审核后，才可将source和card状态改为reviewed并加入knowledge.json。",
+  "source": {
+    "id": "SOURCE_UNIQUE_ID",
+    "title": "原始资料标题",
+    "url": "",
+    "status": "pending",
+    "checkedAt": "",
+    "region": "",
+    "applicableAt": "",
+    "facts": [{"id":"FACT_UNIQUE_ID","text":"原文中可支持的具体事实；不支持的判断不要写成事实"}]
+  },
+  "card": {
+    "id": "CARD_UNIQUE_ID",
+    "title": "具体路径或机会名称",
+    "status": "pending",
+    "majors": [],
+    "context": "",
+    "tasks": [],
+    "outputs": [],
+    "requirements": [{"id":"CRITERION_UNIQUE_ID","label":"一项具体要求"}],
+    "conditions": {"requiredHours":null,"hoursPeriod":"week","cost":null,"costPeriod":"total","currency":"CNY"},
+    "channels": [],
+    "support": "",
+    "differences": "",
+    "lowCostTask": "",
+    "sourceId": "SOURCE_UNIQUE_ID",
+    "region": "",
+    "applicableAt": "",
+    "checkedAt": ""
+  }
+}

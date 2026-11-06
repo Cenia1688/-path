@@ -1,0 +1,23 @@
+services:
+  career-path:
+    build: .
+    image: career-path:revision8
+    restart: unless-stopped
+    environment:
+      HOST: 0.0.0.0
+      PORT: 3000
+    ports:
+      - "${BIND_ADDRESS:-127.0.0.1}:${PUBLIC_PORT:-3000}:3000"
+    read_only: true
+    cap_drop:
+      - ALL
+    security_opt:
+      - no-new-privileges:true
+    tmpfs:
+      - /tmp:size=16m
+    stop_grace_period: 45s
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"

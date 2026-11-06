@@ -1,0 +1,83 @@
+{
+  "summary": "string",
+  "observations": [
+    {
+      "text": "string",
+      "fieldRefs": [
+        "existing field id"
+      ],
+      "ruleRefs": [
+        "existing finding id"
+      ]
+    }
+  ],
+  "explorations": [
+    {
+      "cardId": "provided card id",
+      "reason": "exploration suggestion, not established fact",
+      "nextStep": "string"
+    }
+  ],
+  "actions": [
+    {
+      "title": "string",
+      "steps": [
+        "string"
+      ],
+      "timeMinutes": 30,
+      "deliverable": "string",
+      "reviewQuestions": [
+        "string"
+      ],
+      "fieldRefs": [
+        "existing field id"
+      ],
+      "sourceIds": [
+        "provided source id"
+      ],
+      "priority": 1,
+      "whyFirst": "为什么先做这一步",
+      "dependsOn": []
+    }
+  ],
+  "jobEvidence": [
+    {"pathId":"provided path id","opportunityId":"provided opportunity id","quote":"从该岗位sourceText连续摘录的原文，不超过300字","interpretation":"这条要求与本人输入如何对应","question":"仍需确认什么","fieldRefs":["existing field id"]}
+  ],
+  "questions": [
+    "string"
+  ],
+  "factRefs": [
+    {
+      "sourceId": "provided source id",
+      "factId": "provided fact id"
+    }
+  ],
+  "informationNeeds": [
+    {
+      "priority": 1,
+      "question": "具体要查什么",
+      "why": "影响哪个决定",
+      "whereToCheck": "哪里查或问谁",
+      "doneWhen": "查到什么就够了",
+      "ifThen": "不同结果后如何行动",
+      "fieldRefs": [
+        "existing field id"
+      ],
+      "ruleRefs": []
+    }
+  ],
+  "alternatives": [
+    {
+      "title": "待探索方向",
+      "reason": "为什么与本人需求有关",
+      "unknowns": [
+        "待核实事项"
+      ],
+      "firstCheck": "第一步核实",
+      "fieldRefs": [
+        "existing field id"
+      ],
+      "status": "hypothesis"
+    }
+  ]
+}

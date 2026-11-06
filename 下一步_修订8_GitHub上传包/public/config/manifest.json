@@ -1,0 +1,40 @@
+{
+  "version": "1.0.0",
+  "variables": 18,
+  "inputColumns": 88,
+  "sources": [
+    {
+      "name": "动态生涯路径各大变量操作化编码表_v3.xlsx",
+      "sha256": "4a0536f052e039b9e6ac456f70bc6d03402874e3c9b4bdd172f545a7fd61bb90"
+    },
+    {
+      "name": "01_动态生涯路径理论整合稿_v1.1_导师讨论版.docx",
+      "sha256": "33cf279c0d58157f4afc0b9fb2ebfbea1ba3045c3e162a295361202ae6031899"
+    }
+  ],
+  "namespaces": {
+    "theoryModel": [
+      "theory.M0",
+      "theory.M2"
+    ],
+    "measurementType": [
+      "measurement.M1",
+      "measurement.M2",
+      "measurement.M3",
+      "measurement.M4"
+    ]
+  },
+  "ownership": {
+    "H°": "system",
+    "P.correctness": "system",
+    "identityStatus": "disabled",
+    "scaleValidation": "researcher",
+    "sourceReview": "researcher"
+  },
+  "pending": [
+    "V8规范道德未纳入当前7维排序",
+    "同一性状态不自动分类",
+    "三类自我效能按具体问题分别记录，不声称成熟三因子量表",
+    "CFPS/CGSS仅作背景，不接为个人历史"
+  ]
+}

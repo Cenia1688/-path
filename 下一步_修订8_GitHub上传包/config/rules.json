@@ -1,0 +1,8 @@
+[
+  {"id":"eligibility","description":"逐项区分用户自报满足与外部核验；当前不满足不能被未来可能取得覆盖。"},
+  {"id":"time","description":"准确数值、单位与时间范围相同才能比较；缺小时数时不取区间中点。"},
+  {"id":"budget","description":"币种及时间范围一致才能比较；区间不转成准确预算。"},
+  {"id":"bottom-line","description":"只对本人明确确认的底线作冲突提示，不替用户发明底线。"},
+  {"id":"source-gap","description":"没有可核验的外部来源则保留待核查，不借助模型常识宣称已经核实。"},
+  {"id":"goal-action","description":"记录期限与行动，有目标未行动则询问原因，不作人格归因。"}
+]

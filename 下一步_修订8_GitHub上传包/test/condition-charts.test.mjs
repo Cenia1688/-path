@@ -1,0 +1,8 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {renderConditionChart} from '../public/condition-charts.mjs';
+import {emptyState,newPath,newOpportunity,answer,analyze} from '../lib/engine.mjs';
+function setup(){const s=emptyState(),p=newPath(),o=newOpportunity();s.paths.push(p);p.opportunities.push(o);p.answers['path.availableHours']=answer(6);Object.assign(o,{requiredHours:16,cost:0,budget:300});return {s,p,o};}
+test('准确数值来自相同规则对照，时间冲突不被预算抵消',()=>{const {s}=setup(),r=analyze(s),c=r.comparisons[0];assert.deepEqual(c.time.measurement,{available:6,required:16,unit:'小时/周',source:'双方数值来自填写，未经外部核验'});assert.equal(c.time.status,'conflict');assert.equal(c.budget.status,'reported_match');const h=renderConditionChart('时间',c.time);assert.match(h,/你可用 6，机会要求 16/);assert.match(h,/当前这项条件有冲突/);assert.match(h,/<svg/);assert.doesNotMatch(h,/fetch|https:|<script/);assert.ok(renderConditionChart('预算',c.budget).includes('机会要求 0'));});
+test('未知和不一致单位不生成虚构坐标',()=>{const {s,o}=setup();o.requiredHours=null;assert.equal(renderConditionChart('时间',analyze(s).comparisons[0].time),'');o.requiredHours=10;o.hoursPeriod='month';o.budgetCurrency='USD';const c=analyze(s).comparisons[0];assert.equal(renderConditionChart('时间',c.time),'');assert.equal(renderConditionChart('预算',c.budget),'');});
+test('零和小数有效、非法值拒绝、文字安全转义',()=>{for(const v of [0,0.25]){const h=renderConditionChart('<b>时间</b>',{measurement:{available:v,required:0,unit:'小时/周',source:'<script>'}});assert.match(h,/&lt;b&gt;/);assert.match(h,/&lt;script&gt;/);assert.doesNotMatch(h,/NaN|Infinity|<script>/);}assert.equal(renderConditionChart('时间',{measurement:{available:NaN,required:1}}),'');});

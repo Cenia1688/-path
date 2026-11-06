@@ -1,0 +1,2269 @@
+[
+  {
+    "id": "profile.major",
+    "code": "basic",
+    "label": "你现在学习哪个专业？",
+    "kind": "select",
+    "scope": "profile",
+    "group": "基本情况",
+    "options": [
+      {
+        "value": "1",
+        "label": "哲学"
+      },
+      {
+        "value": "2",
+        "label": "社会学"
+      },
+      {
+        "value": "3",
+        "label": "思想政治教育"
+      },
+      {
+        "value": "4",
+        "label": "其他专业"
+      }
+    ],
+    "unit": null,
+    "help": "",
+    "owner": "user",
+    "validation": "项目探索性记录，未作为成熟量表计分",
+    "origin": "9-编码录入",
+    "added": true
+  },
+  {
+    "id": "profile.year",
+    "code": "basic",
+    "label": "目前处于哪个学习阶段？",
+    "kind": "select",
+    "scope": "profile",
+    "group": "基本情况",
+    "options": [
+      {
+        "value": "1",
+        "label": "大一"
+      },
+      {
+        "value": "2",
+        "label": "大二"
+      },
+      {
+        "value": "3",
+        "label": "大三"
+      },
+      {
+        "value": "4",
+        "label": "大四及以上"
+      },
+      {
+        "value": "5",
+        "label": "已毕业"
+      },
+      {
+        "value": "6",
+        "label": "其他"
+      }
+    ],
+    "unit": null,
+    "help": "",
+    "owner": "user",
+    "validation": "项目探索性记录，未作为成熟量表计分",
+    "origin": "9-编码录入",
+    "added": true
+  },
+  {
+    "id": "profile.values.v1",
+    "code": "V",
+    "label": "你有多重视「安全稳定」？",
+    "kind": "select",
+    "scope": "profile",
+    "group": "价值取向",
+    "options": [
+      {
+        "value": 1,
+        "label": "1 · 非常不重要"
+      },
+      {
+        "value": 2,
+        "label": "2 · 不太重要"
+      },
+      {
+        "value": 3,
+        "label": "3 · 一般"
+      },
+      {
+        "value": 4,
+        "label": "4 · 比较重要"
+      },
+      {
+        "value": 5,
+        "label": "5 · 非常重要"
+      }
+    ],
+    "unit": null,
+    "help": "七个维度分别记录，不合成价值总分。",
+    "owner": "user",
+    "validation": "项目探索性记录，未作为成熟量表计分",
+    "origin": "9-编码录入",
+    "added": false
+  },
+  {
+    "id": "profile.values.v2",
+    "code": "V",
+    "label": "你有多重视「自主独立」？",
+    "kind": "select",
+    "scope": "profile",
+    "group": "价值取向",
+    "options": [
+      {
+        "value": 1,
+        "label": "1 · 非常不重要"
+      },
+      {
+        "value": 2,
+        "label": "2 · 不太重要"
+      },
+      {
+        "value": 3,
+        "label": "3 · 一般"
+      },
+      {
+        "value": 4,
+        "label": "4 · 比较重要"
+      },
+      {
+        "value": 5,
+        "label": "5 · 非常重要"
+      }
+    ],
+    "unit": null,
+    "help": "七个维度分别记录，不合成价值总分。",
+    "owner": "user",
+    "validation": "项目探索性记录，未作为成熟量表计分",
+    "origin": "9-编码录入",
+    "added": false
+  },
+  {
+    "id": "profile.values.v3",
+    "code": "V",
+    "label": "你有多重视「成长发展」？",
+    "kind": "select",
+    "scope": "profile",
+    "group": "价值取向",
+    "options": [
+      {
+        "value": 1,
+        "label": "1 · 非常不重要"
+      },
+      {
+        "value": 2,
+        "label": "2 · 不太重要"
+      },
+      {
+        "value": 3,
+        "label": "3 · 一般"
+      },
+      {
+        "value": 4,
+        "label": "4 · 比较重要"
+      },
+      {
+        "value": 5,
+        "label": "5 · 非常重要"
+      }
+    ],
+    "unit": null,
+    "help": "七个维度分别记录，不合成价值总分。",
+    "owner": "user",
+    "validation": "项目探索性记录，未作为成熟量表计分",
+    "origin": "9-编码录入",
+    "added": false
+  },
+  {
+    "id": "profile.values.v4",
+    "code": "V",
+    "label": "你有多重视「家庭责任」？",
+    "kind": "select",
+    "scope": "profile",
+    "group": "价值取向",
+    "options": [
+      {
+        "value": 1,
+        "label": "1 · 非常不重要"
+      },
+      {
+        "value": 2,
+        "label": "2 · 不太重要"
+      },
+      {
+        "value": 3,
+        "label": "3 · 一般"
+      },
+      {
+        "value": 4,
+        "label": "4 · 比较重要"
+      },
+      {
+        "value": 5,
+        "label": "5 · 非常重要"
+      }
+    ],
+    "unit": null,
+    "help": "七个维度分别记录，不合成价值总分。",
+    "owner": "user",
+    "validation": "项目探索性记录，未作为成熟量表计分",
+    "origin": "9-编码录入",
+    "added": false
+  },
+  {
+    "id": "profile.values.v5",
+    "code": "V",
+    "label": "你有多重视「社会贡献」？",
+    "kind": "select",
+    "scope": "profile",
+    "group": "价值取向",
+    "options": [
+      {
+        "value": 1,
+        "label": "1 · 非常不重要"
+      },
+      {
+        "value": 2,
+        "label": "2 · 不太重要"
+      },
+      {
+        "value": 3,
+        "label": "3 · 一般"
+      },
+      {
+        "value": 4,
+        "label": "4 · 比较重要"
+      },
+      {
+        "value": 5,
+        "label": "5 · 非常重要"
+      }
+    ],
+    "unit": null,
+    "help": "七个维度分别记录，不合成价值总分。",
+    "owner": "user",
+    "validation": "项目探索性记录，未作为成熟量表计分",
+    "origin": "9-编码录入",
+    "added": false
+  },
+  {
+    "id": "profile.values.v6",
+    "code": "V",
+    "label": "你有多重视「物质报酬」？",
+    "kind": "select",
+    "scope": "profile",
+    "group": "价值取向",
+    "options": [
+      {
+        "value": 1,
+        "label": "1 · 非常不重要"
+      },
+      {
+        "value": 2,
+        "label": "2 · 不太重要"
+      },
+      {
+        "value": 3,
+        "label": "3 · 一般"
+      },
+      {
+        "value": 4,
+        "label": "4 · 比较重要"
+      },
+      {
+        "value": 5,
+        "label": "5 · 非常重要"
+      }
+    ],
+    "unit": null,
+    "help": "七个维度分别记录，不合成价值总分。",
+    "owner": "user",
+    "validation": "项目探索性记录，未作为成熟量表计分",
+    "origin": "9-编码录入",
+    "added": false
+  },
+  {
+    "id": "profile.values.v7",
+    "code": "V",
+    "label": "你有多重视「兴趣性格匹配」？",
+    "kind": "select",
+    "scope": "profile",
+    "group": "价值取向",
+    "options": [
+      {
+        "value": 1,
+        "label": "1 · 非常不重要"
+      },
+      {
+        "value": 2,
+        "label": "2 · 不太重要"
+      },
+      {
+        "value": 3,
+        "label": "3 · 一般"
+      },
+      {
+        "value": 4,
+        "label": "4 · 比较重要"
+      },
+      {
+        "value": 5,
+        "label": "5 · 非常重要"
+      }
+    ],
+    "unit": null,
+    "help": "七个维度分别记录，不合成价值总分。",
+    "owner": "user",
+    "validation": "项目探索性记录，未作为成熟量表计分",
+    "origin": "9-编码录入",
+    "added": false
+  },
+  {
+    "id": "profile.valueRank",
+    "code": "V",
+    "label": "这些方面发生冲突时，你会优先考虑什么？",
+    "kind": "rank",
+    "scope": "profile",
+    "group": "价值取向",
+    "options": [
+      {
+        "value": "v1",
+        "label": "安全稳定"
+      },
+      {
+        "value": "v2",
+        "label": "自主独立"
+      },
+      {
+        "value": "v3",
+        "label": "成长发展"
+      },
+      {
+        "value": "v4",
+        "label": "家庭责任"
+      },
+      {
+        "value": "v5",
+        "label": "社会贡献"
+      },
+      {
+        "value": "v6",
+        "label": "物质报酬"
+      },
+      {
+        "value": "v7",
+        "label": "兴趣性格匹配"
+      }
+    ],
+    "unit": null,
+    "help": "完整排列7项；1最优先。与重要性评分分开保存。",
+    "owner": "user",
+    "validation": "项目探索性记录，未作为成熟量表计分",
+    "origin": "9-编码录入",
+    "added": false
+  },
+  {
+    "id": "profile.identity",
+    "code": "S",
+    "label": "你通常从哪些方面理解自己？",
+    "kind": "multi",
+    "scope": "profile",
+    "group": "自我理解",
+    "options": [
+      {
+        "value": "S身份内容-01",
+        "label": "学科/专业身份"
+      },
+      {
+        "value": "S身份内容-02",
+        "label": "职业身份"
+      },
+      {
+        "value": "S身份内容-03",
+        "label": "政治/公民身份"
+      },
+      {
+        "value": "S身份内容-04",
+        "label": "家庭/关系身份"
+      },
+      {
+        "value": "S身份内容-05",
+        "label": "能力自我认知"
+      },
+      {
+        "value": "S身份内容-06",
+        "label": "价值自我认知"
+      },
+      {
+        "value": "S身份内容-07",
+        "label": "可接受道路边界"
+      }
+    ],
+    "unit": null,
+    "help": "",
+    "owner": "user",
+    "validation": "项目探索性记录，未作为成熟量表计分",
+    "origin": "9-编码录入",
+    "added": false
+  },
+  {
+    "id": "profile.desiredSelf",
+    "code": "S",
+    "label": "你希望成为怎样的人、过怎样的生活？",
+    "kind": "textarea",
+    "scope": "profile",
+    "group": "自我理解",
+    "options": [],
+    "unit": null,
+    "help": "",
+    "owner": "user",
+    "validation": "项目探索性记录，未作为成熟量表计分",
+    "origin": "9-编码录入",
+    "added": true
+  },
+  {
+    "id": "profile.education",
+    "code": "K",
+    "label": "已经完成的最高学历是什么？",
+    "kind": "select",
+    "scope": "profile",
+    "group": "实际资源",
+    "options": [
+      {
+        "value": "K学历-01",
+        "label": "0 文盲/半文盲"
+      },
+      {
+        "value": "K学历-02",
+        "label": "3 小学"
+      },
+      {
+        "value": "K学历-03",
+        "label": "4 初中"
+      },
+      {
+        "value": "K学历-04",
+        "label": "5 高中/中专/技校/职高"
+      },
+      {
+        "value": "K学历-05",
+        "label": "6 大专"
+      },
+      {
+        "value": "K学历-06",
+        "label": "7 大学本科"
+      },
+      {
+        "value": "K学历-07",
+        "label": "8 硕士"
+      },
+      {
+        "value": "K学历-08",
+        "label": "9 博士"
+      },
+      {
+        "value": "K学历-09",
+        "label": "10 从未上过学"
+      }
+    ],
+    "unit": null,
+    "help": "在读本科不等于已经取得本科学历。在读阶段另列。",
+    "owner": "user",
+    "validation": "项目探索性记录，未作为成熟量表计分",
+    "origin": "9-编码录入",
+    "added": false
+  },
+  {
+    "id": "profile.qualifications",
+    "code": "K",
+    "label": "目前已经具备哪些资格或资源？",
+    "kind": "multi",
+    "scope": "profile",
+    "group": "实际资源",
+    "options": [
+      {
+        "value": "K资格-01",
+        "label": "学历/学位资格"
+      },
+      {
+        "value": "K资格-02",
+        "label": "专业证书/执照"
+      },
+      {
+        "value": "K资格-03",
+        "label": "语言/计算机技能"
+      },
+      {
+        "value": "K资格-04",
+        "label": "研究/实践经历"
+      },
+      {
+        "value": "K资格-05",
+        "label": "可调用社会支持"
+      },
+      {
+        "value": "K资格-06",
+        "label": "经济/物质资源"
+      }
+    ],
+    "unit": null,
+    "help": "",
+    "owner": "user",
+    "validation": "项目探索性记录，未作为成熟量表计分",
+    "origin": "9-编码录入",
+    "added": false
+  },
+  {
+    "id": "profile.skills",
+    "code": "K",
+    "label": "能完成哪些具体任务？有哪些证书或作品可以说明？",
+    "kind": "textarea",
+    "scope": "profile",
+    "group": "实际资源",
+    "options": [],
+    "unit": null,
+    "help": "自报记录，不自动视为核实过的能力或资格。",
+    "owner": "user",
+    "validation": "项目探索性记录，未作为成熟量表计分",
+    "origin": "9-编码录入",
+    "added": true
+  },
+  {
+    "id": "profile.support",
+    "code": "K",
+    "label": "现实中可以向谁求助？",
+    "kind": "multi",
+    "scope": "profile",
+    "group": "实际资源",
+    "options": [
+      {
+        "value": "K支持来源-01",
+        "label": "家庭强关系"
+      },
+      {
+        "value": "K支持来源-02",
+        "label": "学校或师友网络"
+      },
+      {
+        "value": "K支持来源-03",
+        "label": "两者皆有"
+      },
+      {
+        "value": "K支持来源-04",
+        "label": "无"
+      }
+    ],
+    "unit": null,
+    "help": "",
+    "owner": "user",
+    "validation": "项目探索性记录，未作为成熟量表计分",
+    "origin": "9-编码录入",
+    "added": false
+  },
+  {
+    "id": "profile.supportDetails",
+    "code": "K",
+    "label": "这些人具体能提供什么帮助？是否已经确认？",
+    "kind": "textarea",
+    "scope": "profile",
+    "group": "实际资源",
+    "options": [],
+    "unit": null,
+    "help": "",
+    "owner": "user",
+    "validation": "项目探索性记录，未作为成熟量表计分",
+    "origin": "9-编码录入",
+    "added": true
+  },
+  {
+    "id": "profile.moneyBand",
+    "code": "K",
+    "label": "近12个月，月均可支配资源大致在哪个范围？",
+    "kind": "select",
+    "scope": "profile",
+    "group": "实际资源",
+    "options": [
+      {
+        "value": "K经济区间-01",
+        "label": "<500 元/月"
+      },
+      {
+        "value": "K经济区间-02",
+        "label": "500–1500 元/月"
+      },
+      {
+        "value": "K经济区间-03",
+        "label": "1500–3000 元/月"
+      },
+      {
+        "value": "K经济区间-04",
+        "label": ">3000 元/月"
+      }
+    ],
+    "unit": "元/月",
+    "help": "保留区间，不换算成具体金额。",
+    "owner": "user",
+    "validation": "项目探索性记录，未作为成熟量表计分",
+    "origin": "9-编码录入",
+    "added": false
+  },
+  {
+    "id": "profile.bottomLines",
+    "code": "h",
+    "label": "哪些是你目前明确不能接受的条件？",
+    "kind": "multi",
+    "scope": "profile",
+    "group": "个人底线",
+    "options": [
+      {
+        "value": "h底线内容-01",
+        "label": "价值/道德底线"
+      },
+      {
+        "value": "h底线内容-02",
+        "label": "工作生活平衡底线"
+      },
+      {
+        "value": "h底线内容-03",
+        "label": "地理底线"
+      },
+      {
+        "value": "h底线内容-04",
+        "label": "收入底线"
+      },
+      {
+        "value": "h底线内容-05",
+        "label": "专业相关底线"
+      },
+      {
+        "value": "h底线内容-06",
+        "label": "稳定性/安全底线"
+      }
+    ],
+    "unit": null,
+    "help": "",
+    "owner": "user",
+    "validation": "项目探索性记录，未作为成熟量表计分",
+    "origin": "9-编码录入",
+    "added": false
+  },
+  {
+    "id": "profile.minIncome",
+    "code": "h",
+    "label": "如果有收入底线，最低月收入是多少？",
+    "kind": "number",
+    "scope": "profile",
+    "group": "个人底线",
+    "options": [],
+    "unit": "元/月",
+    "help": "",
+    "owner": "user",
+    "validation": "项目探索性记录，未作为成熟量表计分",
+    "origin": "9-编码录入",
+    "added": false,
+    "min": 0
+  },
+  {
+    "id": "profile.noRelocation",
+    "code": "h",
+    "label": "你是否接受异地学习或工作？",
+    "kind": "select",
+    "scope": "profile",
+    "group": "个人底线",
+    "options": [
+      {
+        "value": "accept",
+        "label": "接受"
+      },
+      {
+        "value": "yes",
+        "label": "不接受"
+      },
+      {
+        "value": "no",
+        "label": "视具体情况而定"
+      }
+    ],
+    "unit": null,
+    "help": "沿用旧编码：yes表示不接受，no表示可进一步讨论；accept表示明确接受。",
+    "owner": "user",
+    "validation": "项目探索性记录，未作为成熟量表计分",
+    "origin": "9-编码录入",
+    "added": true
+  },
+  {
+    "id": "profile.bottomDetails",
+    "code": "h",
+    "label": "底线适用于什么情境？什么变化会让你重新考虑？",
+    "kind": "textarea",
+    "scope": "profile",
+    "group": "个人底线",
+    "options": [],
+    "unit": null,
+    "help": "",
+    "owner": "user",
+    "validation": "项目探索性记录，未作为成熟量表计分",
+    "origin": "9-编码录入",
+    "added": true
+  },
+  {
+    "id": "path.identityDomains",
+    "code": "S",
+    "label": "这条路和你的哪些自我认识有关？",
+    "kind": "multi",
+    "scope": "path",
+    "group": "道路边界",
+    "options": [
+      {
+        "value": "S身份内容-01",
+        "label": "学科/专业身份"
+      },
+      {
+        "value": "S身份内容-02",
+        "label": "职业身份"
+      },
+      {
+        "value": "S身份内容-03",
+        "label": "政治/公民身份"
+      },
+      {
+        "value": "S身份内容-04",
+        "label": "家庭/关系身份"
+      },
+      {
+        "value": "S身份内容-05",
+        "label": "能力自我认知"
+      },
+      {
+        "value": "S身份内容-06",
+        "label": "价值自我认知"
+      },
+      {
+        "value": "S身份内容-07",
+        "label": "可接受道路边界"
+      }
+    ],
+    "unit": null,
+    "help": "",
+    "owner": "user",
+    "validation": "项目探索性记录，未作为成熟量表计分",
+    "origin": "9-编码录入",
+    "added": false
+  },
+  {
+    "id": "path.exploration",
+    "code": "S",
+    "label": "你已经多深入地了解过这条路？",
+    "kind": "select",
+    "scope": "path",
+    "group": "道路边界",
+    "options": [
+      {
+        "value": 1,
+        "label": "1 · 从未探索"
+      },
+      {
+        "value": 2,
+        "label": "2 · 接触很少"
+      },
+      {
+        "value": 3,
+        "label": "3 · 有一些探索"
+      },
+      {
+        "value": 4,
+        "label": "4 · 比较深入"
+      },
+      {
+        "value": 5,
+        "label": "5 · 充分探索"
+      }
+    ],
+    "unit": null,
+    "help": "记录本次回答，不据此自动划分同一性状态。",
+    "owner": "user",
+    "validation": "项目探索性记录，未作为成熟量表计分",
+    "origin": "9-编码录入",
+    "added": false
+  },
+  {
+    "id": "path.commitment",
+    "code": "S",
+    "label": "你目前有多确定要投入这条路？",
+    "kind": "select",
+    "scope": "path",
+    "group": "道路边界",
+    "options": [
+      {
+        "value": 1,
+        "label": "1 · 尚未决定投入"
+      },
+      {
+        "value": 2,
+        "label": "2 · 投入意愿很弱"
+      },
+      {
+        "value": 3,
+        "label": "3 · 还在考虑"
+      },
+      {
+        "value": 4,
+        "label": "4 · 比较确定"
+      },
+      {
+        "value": 5,
+        "label": "5 · 坚定投入"
+      }
+    ],
+    "unit": null,
+    "help": "",
+    "owner": "user",
+    "validation": "项目探索性记录，未作为成熟量表计分",
+    "origin": "9-编码录入",
+    "added": false
+  },
+  {
+    "id": "path.acceptance",
+    "code": "S",
+    "label": "你目前是否接受这条路所对应的生活？",
+    "kind": "select",
+    "scope": "path",
+    "group": "道路边界",
+    "options": [
+      {
+        "value": "1",
+        "label": "排斥"
+      },
+      {
+        "value": "2",
+        "label": "犹豫"
+      },
+      {
+        "value": "3",
+        "label": "接纳"
+      }
+    ],
+    "unit": null,
+    "help": "",
+    "owner": "user",
+    "validation": "项目探索性记录，未作为成熟量表计分",
+    "origin": "9-编码录入",
+    "added": false
+  },
+  {
+    "id": "path.identityReason",
+    "code": "S",
+    "label": "接受或排除这条路的理由是什么？",
+    "kind": "textarea",
+    "scope": "path",
+    "group": "道路边界",
+    "options": [],
+    "unit": null,
+    "help": "",
+    "owner": "user",
+    "validation": "项目探索性记录，未作为成熟量表计分",
+    "origin": "9-编码录入",
+    "added": true
+  },
+  {
+    "id": "path.channels",
+    "code": "Z",
+    "label": "你通过哪些渠道接触到这条路的机会？",
+    "kind": "multi",
+    "scope": "path",
+    "group": "机会与约束",
+    "options": [
+      {
+        "value": "Z机会来源-01",
+        "label": "自己直接与用人单位联系"
+      },
+      {
+        "value": "Z机会来源-02",
+        "label": "职业介绍机构/招聘广告/人才交流会"
+      },
+      {
+        "value": "Z机会来源-03",
+        "label": "国家分配/组织调动"
+      },
+      {
+        "value": "Z机会来源-04",
+        "label": "亲属朋友或熟人介绍"
+      },
+      {
+        "value": "Z机会来源-05",
+        "label": "学校就业指导机构或学校推荐"
+      },
+      {
+        "value": "Z机会来源-06",
+        "label": "其他"
+      }
+    ],
+    "unit": null,
+    "help": "沿用录入表渠道口径；与概念分类Z1—Z5不混用。",
+    "owner": "user",
+    "validation": "项目探索性记录，未作为成熟量表计分",
+    "origin": "9-编码录入",
+    "added": false
+  },
+  {
+    "id": "path.organization",
+    "code": "Z",
+    "label": "正在了解的单位属于什么类型？",
+    "kind": "select",
+    "scope": "path",
+    "group": "机会与约束",
+    "options": [
+      {
+        "value": "Z单位性质-01",
+        "label": "1 政府部门/党政机关/人民团体"
+      },
+      {
+        "value": "Z单位性质-02",
+        "label": "2 事业单位"
+      },
+      {
+        "value": "Z单位性质-03",
+        "label": "3 国有企业"
+      },
+      {
+        "value": "Z单位性质-04",
+        "label": "4 私营企业/个体工商户"
+      },
+      {
+        "value": "Z单位性质-05",
+        "label": "5 外商/港澳台商企业"
+      },
+      {
+        "value": "Z单位性质-06",
+        "label": "6 其他类型企业"
+      },
+      {
+        "value": "Z单位性质-07",
+        "label": "7 个人/家庭"
+      },
+      {
+        "value": "Z单位性质-08",
+        "label": "8 民办非企业组织/协会/行会/基金会/村居委会"
+      },
+      {
+        "value": "Z单位性质-09",
+        "label": "9 无法判断"
+      },
+      {
+        "value": "Z单位性质-10",
+        "label": "77 其他"
+      }
+    ],
+    "unit": null,
+    "help": "",
+    "owner": "user",
+    "validation": "项目探索性记录，未作为成熟量表计分",
+    "origin": "9-编码录入",
+    "added": false
+  },
+  {
+    "id": "path.establishment",
+    "code": "Z",
+    "label": "该机会是否明确有编制？",
+    "kind": "select",
+    "scope": "path",
+    "group": "机会与约束",
+    "options": [
+      {
+        "value": "yes",
+        "label": "明确有"
+      },
+      {
+        "value": "no",
+        "label": "明确没有"
+      }
+    ],
+    "unit": null,
+    "help": "这是机会特征，不是本人已经取得的资格。",
+    "owner": "user",
+    "validation": "项目探索性记录，未作为成熟量表计分",
+    "origin": "9-编码录入",
+    "added": false
+  },
+  {
+    "id": "path.constraints",
+    "code": "C",
+    "label": "目前有哪些事情限制了你？",
+    "kind": "multi",
+    "scope": "path",
+    "group": "机会与约束",
+    "options": [
+      {
+        "value": "C约束类型-01",
+        "label": "经济/费用约束"
+      },
+      {
+        "value": "C约束类型-02",
+        "label": "时间约束"
+      },
+      {
+        "value": "C约束类型-03",
+        "label": "地理/迁移约束"
+      },
+      {
+        "value": "C约束类型-04",
+        "label": "家庭照料责任"
+      },
+      {
+        "value": "C约束类型-05",
+        "label": "资格/制度门槛"
+      },
+      {
+        "value": "C约束类型-06",
+        "label": "信息与渠道约束"
+      },
+      {
+        "value": "C约束类型-07",
+        "label": "态度/信心约束（内部）"
+      }
+    ],
+    "unit": null,
+    "help": "",
+    "owner": "user",
+    "validation": "项目探索性记录，未作为成熟量表计分",
+    "origin": "9-编码录入",
+    "added": false
+  },
+  {
+    "id": "path.constraintSeverity.C约束类型-01",
+    "code": "C",
+    "label": "「经济/费用约束」目前有多严重？",
+    "kind": "select",
+    "scope": "path",
+    "group": "机会与约束",
+    "options": [
+      {
+        "value": "1",
+        "label": "轻"
+      },
+      {
+        "value": "2",
+        "label": "中"
+      },
+      {
+        "value": "3",
+        "label": "重"
+      }
+    ],
+    "unit": null,
+    "help": "逐项记录主观严重度，与客观条件核验分开。",
+    "owner": "user",
+    "validation": "项目探索性记录，未作为成熟量表计分",
+    "origin": "9-编码录入",
+    "added": false,
+    "condition": "C约束类型-01",
+    "conditionField": "path.constraints"
+  },
+  {
+    "id": "path.constraintSeverity.C约束类型-02",
+    "code": "C",
+    "label": "「时间约束」目前有多严重？",
+    "kind": "select",
+    "scope": "path",
+    "group": "机会与约束",
+    "options": [
+      {
+        "value": "1",
+        "label": "轻"
+      },
+      {
+        "value": "2",
+        "label": "中"
+      },
+      {
+        "value": "3",
+        "label": "重"
+      }
+    ],
+    "unit": null,
+    "help": "逐项记录主观严重度，与客观条件核验分开。",
+    "owner": "user",
+    "validation": "项目探索性记录，未作为成熟量表计分",
+    "origin": "9-编码录入",
+    "added": false,
+    "condition": "C约束类型-02",
+    "conditionField": "path.constraints"
+  },
+  {
+    "id": "path.constraintSeverity.C约束类型-03",
+    "code": "C",
+    "label": "「地理/迁移约束」目前有多严重？",
+    "kind": "select",
+    "scope": "path",
+    "group": "机会与约束",
+    "options": [
+      {
+        "value": "1",
+        "label": "轻"
+      },
+      {
+        "value": "2",
+        "label": "中"
+      },
+      {
+        "value": "3",
+        "label": "重"
+      }
+    ],
+    "unit": null,
+    "help": "逐项记录主观严重度，与客观条件核验分开。",
+    "owner": "user",
+    "validation": "项目探索性记录，未作为成熟量表计分",
+    "origin": "9-编码录入",
+    "added": false,
+    "condition": "C约束类型-03",
+    "conditionField": "path.constraints"
+  },
+  {
+    "id": "path.constraintSeverity.C约束类型-04",
+    "code": "C",
+    "label": "「家庭照料责任」目前有多严重？",
+    "kind": "select",
+    "scope": "path",
+    "group": "机会与约束",
+    "options": [
+      {
+        "value": "1",
+        "label": "轻"
+      },
+      {
+        "value": "2",
+        "label": "中"
+      },
+      {
+        "value": "3",
+        "label": "重"
+      }
+    ],
+    "unit": null,
+    "help": "逐项记录主观严重度，与客观条件核验分开。",
+    "owner": "user",
+    "validation": "项目探索性记录，未作为成熟量表计分",
+    "origin": "9-编码录入",
+    "added": false,
+    "condition": "C约束类型-04",
+    "conditionField": "path.constraints"
+  },
+  {
+    "id": "path.constraintSeverity.C约束类型-05",
+    "code": "C",
+    "label": "「资格/制度门槛」目前有多严重？",
+    "kind": "select",
+    "scope": "path",
+    "group": "机会与约束",
+    "options": [
+      {
+        "value": "1",
+        "label": "轻"
+      },
+      {
+        "value": "2",
+        "label": "中"
+      },
+      {
+        "value": "3",
+        "label": "重"
+      }
+    ],
+    "unit": null,
+    "help": "逐项记录主观严重度，与客观条件核验分开。",
+    "owner": "user",
+    "validation": "项目探索性记录，未作为成熟量表计分",
+    "origin": "9-编码录入",
+    "added": false,
+    "condition": "C约束类型-05",
+    "conditionField": "path.constraints"
+  },
+  {
+    "id": "path.constraintSeverity.C约束类型-06",
+    "code": "C",
+    "label": "「信息与渠道约束」目前有多严重？",
+    "kind": "select",
+    "scope": "path",
+    "group": "机会与约束",
+    "options": [
+      {
+        "value": "1",
+        "label": "轻"
+      },
+      {
+        "value": "2",
+        "label": "中"
+      },
+      {
+        "value": "3",
+        "label": "重"
+      }
+    ],
+    "unit": null,
+    "help": "逐项记录主观严重度，与客观条件核验分开。",
+    "owner": "user",
+    "validation": "项目探索性记录，未作为成熟量表计分",
+    "origin": "9-编码录入",
+    "added": false,
+    "condition": "C约束类型-06",
+    "conditionField": "path.constraints"
+  },
+  {
+    "id": "path.constraintSeverity.C约束类型-07",
+    "code": "C",
+    "label": "「态度/信心约束（内部）」目前有多严重？",
+    "kind": "select",
+    "scope": "path",
+    "group": "机会与约束",
+    "options": [
+      {
+        "value": "1",
+        "label": "轻"
+      },
+      {
+        "value": "2",
+        "label": "中"
+      },
+      {
+        "value": "3",
+        "label": "重"
+      }
+    ],
+    "unit": null,
+    "help": "逐项记录主观严重度，与客观条件核验分开。",
+    "owner": "user",
+    "validation": "项目探索性记录，未作为成熟量表计分",
+    "origin": "9-编码录入",
+    "added": false,
+    "condition": "C约束类型-07",
+    "conditionField": "path.constraints"
+  },
+  {
+    "id": "path.preparationBand",
+    "code": "C",
+    "label": "未来12个月，可用于准备的时间大致有多久？",
+    "kind": "select",
+    "scope": "path",
+    "group": "机会与约束",
+    "options": [
+      {
+        "value": "C时间区间-01",
+        "label": "<1 月"
+      },
+      {
+        "value": "C时间区间-02",
+        "label": "1–3 月"
+      },
+      {
+        "value": "C时间区间-03",
+        "label": "3–6 月"
+      },
+      {
+        "value": "C时间区间-04",
+        "label": ">6 月"
+      }
+    ],
+    "unit": "月",
+    "help": "",
+    "owner": "user",
+    "validation": "项目探索性记录，未作为成熟量表计分",
+    "origin": "9-编码录入",
+    "added": false
+  },
+  {
+    "id": "path.availableHours",
+    "code": "C",
+    "label": "当前每周能为这条路投入多少小时？",
+    "kind": "number",
+    "scope": "path",
+    "group": "机会与约束",
+    "options": [],
+    "unit": "小时/周",
+    "help": "新增的准确数值，不能由时间区间推算。",
+    "owner": "user",
+    "validation": "项目探索性记录，未作为成熟量表计分",
+    "origin": "9-编码录入",
+    "added": true,
+    "min": 0,
+    "max": 168
+  },
+  {
+    "id": "path.taskSE",
+    "code": "SE_task",
+    "label": "对于上面这个任务，你有多大把握完成？",
+    "kind": "select",
+    "scope": "path",
+    "group": "任务与判断",
+    "options": [
+      {
+        "value": 1,
+        "label": "1 · 完全没有信心"
+      },
+      {
+        "value": 2,
+        "label": "2 · 有一点信心"
+      },
+      {
+        "value": 3,
+        "label": "3 · 有一些信心"
+      },
+      {
+        "value": 4,
+        "label": "4 · 比较有信心"
+      },
+      {
+        "value": 5,
+        "label": "5 · 完全有信心"
+      }
+    ],
+    "unit": null,
+    "help": "",
+    "owner": "user",
+    "validation": "项目探索性记录，未作为成熟量表计分",
+    "origin": "9-编码录入",
+    "added": false
+  },
+  {
+    "id": "path.processSE",
+    "code": "SE_process",
+    "label": "对搜集信息、联络、准备和申请，你有多大把握？",
+    "kind": "select",
+    "scope": "path",
+    "group": "任务与判断",
+    "options": [
+      {
+        "value": 1,
+        "label": "1 · 完全没有信心"
+      },
+      {
+        "value": 2,
+        "label": "2 · 有一点信心"
+      },
+      {
+        "value": 3,
+        "label": "3 · 有一些信心"
+      },
+      {
+        "value": 4,
+        "label": "4 · 比较有信心"
+      },
+      {
+        "value": 5,
+        "label": "5 · 完全有信心"
+      }
+    ],
+    "unit": null,
+    "help": "",
+    "owner": "user",
+    "validation": "项目探索性记录，未作为成熟量表计分",
+    "origin": "9-编码录入",
+    "added": false
+  },
+  {
+    "id": "path.copingSE",
+    "code": "SE_coping",
+    "label": "遇到拒绝或困难后，你有多大把握调整办法？",
+    "kind": "select",
+    "scope": "path",
+    "group": "任务与判断",
+    "options": [
+      {
+        "value": 1,
+        "label": "1 · 完全没有信心"
+      },
+      {
+        "value": 2,
+        "label": "2 · 有一点信心"
+      },
+      {
+        "value": 3,
+        "label": "3 · 有一些信心"
+      },
+      {
+        "value": 4,
+        "label": "4 · 比较有信心"
+      },
+      {
+        "value": 5,
+        "label": "5 · 完全有信心"
+      }
+    ],
+    "unit": null,
+    "help": "",
+    "owner": "user",
+    "validation": "项目探索性记录，未作为成熟量表计分",
+    "origin": "9-编码录入",
+    "added": false
+  },
+  {
+    "id": "path.activityTypes",
+    "code": "I",
+    "label": "你对哪些日常活动感兴趣？",
+    "kind": "multi",
+    "scope": "path",
+    "group": "活动兴趣",
+    "options": [
+      {
+        "value": "I活动类型-01",
+        "label": "科研/学术活动"
+      },
+      {
+        "value": "I活动类型-02",
+        "label": "实习/实践活动"
+      },
+      {
+        "value": "I活动类型-03",
+        "label": "教学/培训活动"
+      },
+      {
+        "value": "I活动类型-04",
+        "label": "公益/志愿活动"
+      },
+      {
+        "value": "I活动类型-05",
+        "label": "管理/组织活动"
+      },
+      {
+        "value": "I活动类型-06",
+        "label": "创作/表达活动"
+      },
+      {
+        "value": "I活动类型-07",
+        "label": "其他"
+      }
+    ],
+    "unit": null,
+    "help": "",
+    "owner": "user",
+    "validation": "项目探索性记录，未作为成熟量表计分",
+    "origin": "9-编码录入",
+    "added": false
+  },
+  {
+    "id": "path.interest",
+    "code": "I",
+    "label": "对于上面这个具体任务，你有多大兴趣？",
+    "kind": "select",
+    "scope": "path",
+    "group": "活动兴趣",
+    "options": [
+      {
+        "value": 1,
+        "label": "1 · 毫无兴趣"
+      },
+      {
+        "value": 2,
+        "label": "2 · 兴趣较少"
+      },
+      {
+        "value": 3,
+        "label": "3 · 一般"
+      },
+      {
+        "value": 4,
+        "label": "4 · 比较感兴趣"
+      },
+      {
+        "value": 5,
+        "label": "5 · 非常感兴趣"
+      }
+    ],
+    "unit": null,
+    "help": "",
+    "owner": "user",
+    "validation": "项目探索性记录，未作为成熟量表计分",
+    "origin": "9-编码录入",
+    "added": false
+  },
+  {
+    "id": "path.entryJudgment",
+    "code": "q",
+    "label": "对于当前这个具体机会，你觉得自己能进入吗？",
+    "kind": "select",
+    "scope": "path",
+    "group": "进入判断",
+    "options": [
+      {
+        "value": "can",
+        "label": "认为能进入"
+      },
+      {
+        "value": "cannot",
+        "label": "认为不能进入"
+      },
+      {
+        "value": "uncertain",
+        "label": "不确定"
+      }
+    ],
+    "unit": null,
+    "help": "",
+    "owner": "user",
+    "validation": "项目探索性记录，未作为成熟量表计分",
+    "origin": "9-编码录入",
+    "added": false
+  },
+  {
+    "id": "path.entryConfidence",
+    "code": "q",
+    "label": "你对这个进入判断有多大把握？",
+    "kind": "select",
+    "scope": "path",
+    "group": "进入判断",
+    "options": [
+      {
+        "value": 1,
+        "label": "1 · 完全没把握"
+      },
+      {
+        "value": 2,
+        "label": "2 · 把握很小"
+      },
+      {
+        "value": 3,
+        "label": "3 · 一般"
+      },
+      {
+        "value": 4,
+        "label": "4 · 比较有把握"
+      },
+      {
+        "value": 5,
+        "label": "5 · 很有把握"
+      }
+    ],
+    "unit": null,
+    "help": "",
+    "owner": "user",
+    "validation": "项目探索性记录，未作为成熟量表计分",
+    "origin": "9-编码录入",
+    "added": true
+  },
+  {
+    "id": "path.entryReason",
+    "code": "q",
+    "label": "你依据什么作出这个判断？",
+    "kind": "textarea",
+    "scope": "path",
+    "group": "进入判断",
+    "options": [],
+    "unit": null,
+    "help": "",
+    "owner": "user",
+    "validation": "项目探索性记录，未作为成熟量表计分",
+    "origin": "9-编码录入",
+    "added": false
+  },
+  {
+    "id": "path.outcomes",
+    "code": "OE",
+    "label": "投入这条路，你预期会带来哪些后果？",
+    "kind": "multi",
+    "scope": "path",
+    "group": "结果预期",
+    "options": [
+      {
+        "value": "OE后果类型-01",
+        "label": "能力提升"
+      },
+      {
+        "value": "OE后果类型-02",
+        "label": "升学/学术发展"
+      },
+      {
+        "value": "OE后果类型-03",
+        "label": "就业/经济收益"
+      },
+      {
+        "value": "OE后果类型-04",
+        "label": "时间精力成本（负向）"
+      },
+      {
+        "value": "OE后果类型-05",
+        "label": "关系网络"
+      },
+      {
+        "value": "OE后果类型-06",
+        "label": "身份认同/意义"
+      }
+    ],
+    "unit": null,
+    "help": "选中后，分别填写可能性、强度和积极/消极评价。",
+    "owner": "user",
+    "validation": "项目探索性记录，未作为成熟量表计分",
+    "origin": "9-编码录入",
+    "added": false
+  },
+  {
+    "id": "path.oe.OE后果类型-01.probability",
+    "code": "OE",
+    "label": "能力提升：你认为发生的可能性？",
+    "kind": "select",
+    "scope": "path",
+    "group": "逐项结果预期",
+    "options": [
+      {
+        "value": "OE可能性-01",
+        "label": "1 = 0–20%"
+      },
+      {
+        "value": "OE可能性-02",
+        "label": "2 = 21–40%"
+      },
+      {
+        "value": "OE可能性-03",
+        "label": "3 = 41–60%"
+      },
+      {
+        "value": "OE可能性-04",
+        "label": "4 = 61–80%"
+      },
+      {
+        "value": "OE可能性-05",
+        "label": "5 = 81–100%"
+      }
+    ],
+    "unit": null,
+    "help": "",
+    "owner": "user",
+    "validation": "项目探索性记录，未作为成熟量表计分",
+    "origin": "9-编码录入",
+    "added": false,
+    "condition": "OE后果类型-01"
+  },
+  {
+    "id": "path.oe.OE后果类型-01.intensity",
+    "code": "OE",
+    "label": "能力提升：如果发生，影响程度多强？",
+    "kind": "select",
+    "scope": "path",
+    "group": "逐项结果预期",
+    "options": [
+      {
+        "value": 1,
+        "label": "1 · 很弱"
+      },
+      {
+        "value": 2,
+        "label": "2 · 较弱"
+      },
+      {
+        "value": 3,
+        "label": "3 · 中等"
+      },
+      {
+        "value": 4,
+        "label": "4 · 较强"
+      },
+      {
+        "value": 5,
+        "label": "5 · 很强"
+      }
+    ],
+    "unit": null,
+    "help": "",
+    "owner": "user",
+    "validation": "项目探索性记录，未作为成熟量表计分",
+    "origin": "9-编码录入",
+    "added": false,
+    "condition": "OE后果类型-01"
+  },
+  {
+    "id": "path.oe.OE后果类型-01.valence",
+    "code": "OE",
+    "label": "能力提升：对你而言是积极还是消极？",
+    "kind": "select",
+    "scope": "path",
+    "group": "逐项结果预期",
+    "options": [
+      {
+        "value": 1,
+        "label": "1 · 很消极"
+      },
+      {
+        "value": 2,
+        "label": "2 · 较消极"
+      },
+      {
+        "value": 3,
+        "label": "3 · 中性"
+      },
+      {
+        "value": 4,
+        "label": "4 · 较积极"
+      },
+      {
+        "value": 5,
+        "label": "5 · 很积极"
+      }
+    ],
+    "unit": null,
+    "help": "",
+    "owner": "user",
+    "validation": "项目探索性记录，未作为成熟量表计分",
+    "origin": "9-编码录入",
+    "added": false,
+    "condition": "OE后果类型-01"
+  },
+  {
+    "id": "path.oe.OE后果类型-02.probability",
+    "code": "OE",
+    "label": "升学/学术发展：你认为发生的可能性？",
+    "kind": "select",
+    "scope": "path",
+    "group": "逐项结果预期",
+    "options": [
+      {
+        "value": "OE可能性-01",
+        "label": "1 = 0–20%"
+      },
+      {
+        "value": "OE可能性-02",
+        "label": "2 = 21–40%"
+      },
+      {
+        "value": "OE可能性-03",
+        "label": "3 = 41–60%"
+      },
+      {
+        "value": "OE可能性-04",
+        "label": "4 = 61–80%"
+      },
+      {
+        "value": "OE可能性-05",
+        "label": "5 = 81–100%"
+      }
+    ],
+    "unit": null,
+    "help": "",
+    "owner": "user",
+    "validation": "项目探索性记录，未作为成熟量表计分",
+    "origin": "9-编码录入",
+    "added": false,
+    "condition": "OE后果类型-02"
+  },
+  {
+    "id": "path.oe.OE后果类型-02.intensity",
+    "code": "OE",
+    "label": "升学/学术发展：如果发生，影响程度多强？",
+    "kind": "select",
+    "scope": "path",
+    "group": "逐项结果预期",
+    "options": [
+      {
+        "value": 1,
+        "label": "1 · 很弱"
+      },
+      {
+        "value": 2,
+        "label": "2 · 较弱"
+      },
+      {
+        "value": 3,
+        "label": "3 · 中等"
+      },
+      {
+        "value": 4,
+        "label": "4 · 较强"
+      },
+      {
+        "value": 5,
+        "label": "5 · 很强"
+      }
+    ],
+    "unit": null,
+    "help": "",
+    "owner": "user",
+    "validation": "项目探索性记录，未作为成熟量表计分",
+    "origin": "9-编码录入",
+    "added": false,
+    "condition": "OE后果类型-02"
+  },
+  {
+    "id": "path.oe.OE后果类型-02.valence",
+    "code": "OE",
+    "label": "升学/学术发展：对你而言是积极还是消极？",
+    "kind": "select",
+    "scope": "path",
+    "group": "逐项结果预期",
+    "options": [
+      {
+        "value": 1,
+        "label": "1 · 很消极"
+      },
+      {
+        "value": 2,
+        "label": "2 · 较消极"
+      },
+      {
+        "value": 3,
+        "label": "3 · 中性"
+      },
+      {
+        "value": 4,
+        "label": "4 · 较积极"
+      },
+      {
+        "value": 5,
+        "label": "5 · 很积极"
+      }
+    ],
+    "unit": null,
+    "help": "",
+    "owner": "user",
+    "validation": "项目探索性记录，未作为成熟量表计分",
+    "origin": "9-编码录入",
+    "added": false,
+    "condition": "OE后果类型-02"
+  },
+  {
+    "id": "path.oe.OE后果类型-03.probability",
+    "code": "OE",
+    "label": "就业/经济收益：你认为发生的可能性？",
+    "kind": "select",
+    "scope": "path",
+    "group": "逐项结果预期",
+    "options": [
+      {
+        "value": "OE可能性-01",
+        "label": "1 = 0–20%"
+      },
+      {
+        "value": "OE可能性-02",
+        "label": "2 = 21–40%"
+      },
+      {
+        "value": "OE可能性-03",
+        "label": "3 = 41–60%"
+      },
+      {
+        "value": "OE可能性-04",
+        "label": "4 = 61–80%"
+      },
+      {
+        "value": "OE可能性-05",
+        "label": "5 = 81–100%"
+      }
+    ],
+    "unit": null,
+    "help": "",
+    "owner": "user",
+    "validation": "项目探索性记录，未作为成熟量表计分",
+    "origin": "9-编码录入",
+    "added": false,
+    "condition": "OE后果类型-03"
+  },
+  {
+    "id": "path.oe.OE后果类型-03.intensity",
+    "code": "OE",
+    "label": "就业/经济收益：如果发生，影响程度多强？",
+    "kind": "select",
+    "scope": "path",
+    "group": "逐项结果预期",
+    "options": [
+      {
+        "value": 1,
+        "label": "1 · 很弱"
+      },
+      {
+        "value": 2,
+        "label": "2 · 较弱"
+      },
+      {
+        "value": 3,
+        "label": "3 · 中等"
+      },
+      {
+        "value": 4,
+        "label": "4 · 较强"
+      },
+      {
+        "value": 5,
+        "label": "5 · 很强"
+      }
+    ],
+    "unit": null,
+    "help": "",
+    "owner": "user",
+    "validation": "项目探索性记录，未作为成熟量表计分",
+    "origin": "9-编码录入",
+    "added": false,
+    "condition": "OE后果类型-03"
+  },
+  {
+    "id": "path.oe.OE后果类型-03.valence",
+    "code": "OE",
+    "label": "就业/经济收益：对你而言是积极还是消极？",
+    "kind": "select",
+    "scope": "path",
+    "group": "逐项结果预期",
+    "options": [
+      {
+        "value": 1,
+        "label": "1 · 很消极"
+      },
+      {
+        "value": 2,
+        "label": "2 · 较消极"
+      },
+      {
+        "value": 3,
+        "label": "3 · 中性"
+      },
+      {
+        "value": 4,
+        "label": "4 · 较积极"
+      },
+      {
+        "value": 5,
+        "label": "5 · 很积极"
+      }
+    ],
+    "unit": null,
+    "help": "",
+    "owner": "user",
+    "validation": "项目探索性记录，未作为成熟量表计分",
+    "origin": "9-编码录入",
+    "added": false,
+    "condition": "OE后果类型-03"
+  },
+  {
+    "id": "path.oe.OE后果类型-04.probability",
+    "code": "OE",
+    "label": "时间精力成本（负向）：你认为发生的可能性？",
+    "kind": "select",
+    "scope": "path",
+    "group": "逐项结果预期",
+    "options": [
+      {
+        "value": "OE可能性-01",
+        "label": "1 = 0–20%"
+      },
+      {
+        "value": "OE可能性-02",
+        "label": "2 = 21–40%"
+      },
+      {
+        "value": "OE可能性-03",
+        "label": "3 = 41–60%"
+      },
+      {
+        "value": "OE可能性-04",
+        "label": "4 = 61–80%"
+      },
+      {
+        "value": "OE可能性-05",
+        "label": "5 = 81–100%"
+      }
+    ],
+    "unit": null,
+    "help": "",
+    "owner": "user",
+    "validation": "项目探索性记录，未作为成熟量表计分",
+    "origin": "9-编码录入",
+    "added": false,
+    "condition": "OE后果类型-04"
+  },
+  {
+    "id": "path.oe.OE后果类型-04.intensity",
+    "code": "OE",
+    "label": "时间精力成本（负向）：如果发生，影响程度多强？",
+    "kind": "select",
+    "scope": "path",
+    "group": "逐项结果预期",
+    "options": [
+      {
+        "value": 1,
+        "label": "1 · 很弱"
+      },
+      {
+        "value": 2,
+        "label": "2 · 较弱"
+      },
+      {
+        "value": 3,
+        "label": "3 · 中等"
+      },
+      {
+        "value": 4,
+        "label": "4 · 较强"
+      },
+      {
+        "value": 5,
+        "label": "5 · 很强"
+      }
+    ],
+    "unit": null,
+    "help": "",
+    "owner": "user",
+    "validation": "项目探索性记录，未作为成熟量表计分",
+    "origin": "9-编码录入",
+    "added": false,
+    "condition": "OE后果类型-04"
+  },
+  {
+    "id": "path.oe.OE后果类型-04.valence",
+    "code": "OE",
+    "label": "时间精力成本（负向）：对你而言是积极还是消极？",
+    "kind": "select",
+    "scope": "path",
+    "group": "逐项结果预期",
+    "options": [
+      {
+        "value": 1,
+        "label": "1 · 很消极"
+      },
+      {
+        "value": 2,
+        "label": "2 · 较消极"
+      },
+      {
+        "value": 3,
+        "label": "3 · 中性"
+      },
+      {
+        "value": 4,
+        "label": "4 · 较积极"
+      },
+      {
+        "value": 5,
+        "label": "5 · 很积极"
+      }
+    ],
+    "unit": null,
+    "help": "",
+    "owner": "user",
+    "validation": "项目探索性记录，未作为成熟量表计分",
+    "origin": "9-编码录入",
+    "added": false,
+    "condition": "OE后果类型-04"
+  },
+  {
+    "id": "path.oe.OE后果类型-05.probability",
+    "code": "OE",
+    "label": "关系网络：你认为发生的可能性？",
+    "kind": "select",
+    "scope": "path",
+    "group": "逐项结果预期",
+    "options": [
+      {
+        "value": "OE可能性-01",
+        "label": "1 = 0–20%"
+      },
+      {
+        "value": "OE可能性-02",
+        "label": "2 = 21–40%"
+      },
+      {
+        "value": "OE可能性-03",
+        "label": "3 = 41–60%"
+      },
+      {
+        "value": "OE可能性-04",
+        "label": "4 = 61–80%"
+      },
+      {
+        "value": "OE可能性-05",
+        "label": "5 = 81–100%"
+      }
+    ],
+    "unit": null,
+    "help": "",
+    "owner": "user",
+    "validation": "项目探索性记录，未作为成熟量表计分",
+    "origin": "9-编码录入",
+    "added": false,
+    "condition": "OE后果类型-05"
+  },
+  {
+    "id": "path.oe.OE后果类型-05.intensity",
+    "code": "OE",
+    "label": "关系网络：如果发生，影响程度多强？",
+    "kind": "select",
+    "scope": "path",
+    "group": "逐项结果预期",
+    "options": [
+      {
+        "value": 1,
+        "label": "1 · 很弱"
+      },
+      {
+        "value": 2,
+        "label": "2 · 较弱"
+      },
+      {
+        "value": 3,
+        "label": "3 · 中等"
+      },
+      {
+        "value": 4,
+        "label": "4 · 较强"
+      },
+      {
+        "value": 5,
+        "label": "5 · 很强"
+      }
+    ],
+    "unit": null,
+    "help": "",
+    "owner": "user",
+    "validation": "项目探索性记录，未作为成熟量表计分",
+    "origin": "9-编码录入",
+    "added": false,
+    "condition": "OE后果类型-05"
+  },
+  {
+    "id": "path.oe.OE后果类型-05.valence",
+    "code": "OE",
+    "label": "关系网络：对你而言是积极还是消极？",
+    "kind": "select",
+    "scope": "path",
+    "group": "逐项结果预期",
+    "options": [
+      {
+        "value": 1,
+        "label": "1 · 很消极"
+      },
+      {
+        "value": 2,
+        "label": "2 · 较消极"
+      },
+      {
+        "value": 3,
+        "label": "3 · 中性"
+      },
+      {
+        "value": 4,
+        "label": "4 · 较积极"
+      },
+      {
+        "value": 5,
+        "label": "5 · 很积极"
+      }
+    ],
+    "unit": null,
+    "help": "",
+    "owner": "user",
+    "validation": "项目探索性记录，未作为成熟量表计分",
+    "origin": "9-编码录入",
+    "added": false,
+    "condition": "OE后果类型-05"
+  },
+  {
+    "id": "path.oe.OE后果类型-06.probability",
+    "code": "OE",
+    "label": "身份认同/意义：你认为发生的可能性？",
+    "kind": "select",
+    "scope": "path",
+    "group": "逐项结果预期",
+    "options": [
+      {
+        "value": "OE可能性-01",
+        "label": "1 = 0–20%"
+      },
+      {
+        "value": "OE可能性-02",
+        "label": "2 = 21–40%"
+      },
+      {
+        "value": "OE可能性-03",
+        "label": "3 = 41–60%"
+      },
+      {
+        "value": "OE可能性-04",
+        "label": "4 = 61–80%"
+      },
+      {
+        "value": "OE可能性-05",
+        "label": "5 = 81–100%"
+      }
+    ],
+    "unit": null,
+    "help": "",
+    "owner": "user",
+    "validation": "项目探索性记录，未作为成熟量表计分",
+    "origin": "9-编码录入",
+    "added": false,
+    "condition": "OE后果类型-06"
+  },
+  {
+    "id": "path.oe.OE后果类型-06.intensity",
+    "code": "OE",
+    "label": "身份认同/意义：如果发生，影响程度多强？",
+    "kind": "select",
+    "scope": "path",
+    "group": "逐项结果预期",
+    "options": [
+      {
+        "value": 1,
+        "label": "1 · 很弱"
+      },
+      {
+        "value": 2,
+        "label": "2 · 较弱"
+      },
+      {
+        "value": 3,
+        "label": "3 · 中等"
+      },
+      {
+        "value": 4,
+        "label": "4 · 较强"
+      },
+      {
+        "value": 5,
+        "label": "5 · 很强"
+      }
+    ],
+    "unit": null,
+    "help": "",
+    "owner": "user",
+    "validation": "项目探索性记录，未作为成熟量表计分",
+    "origin": "9-编码录入",
+    "added": false,
+    "condition": "OE后果类型-06"
+  },
+  {
+    "id": "path.oe.OE后果类型-06.valence",
+    "code": "OE",
+    "label": "身份认同/意义：对你而言是积极还是消极？",
+    "kind": "select",
+    "scope": "path",
+    "group": "逐项结果预期",
+    "options": [
+      {
+        "value": 1,
+        "label": "1 · 很消极"
+      },
+      {
+        "value": 2,
+        "label": "2 · 较消极"
+      },
+      {
+        "value": 3,
+        "label": "3 · 中性"
+      },
+      {
+        "value": 4,
+        "label": "4 · 较积极"
+      },
+      {
+        "value": 5,
+        "label": "5 · 很积极"
+      }
+    ],
+    "unit": null,
+    "help": "",
+    "owner": "user",
+    "validation": "项目探索性记录，未作为成熟量表计分",
+    "origin": "9-编码录入",
+    "added": false,
+    "condition": "OE后果类型-06"
+  }
+]

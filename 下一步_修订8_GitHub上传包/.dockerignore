@@ -1,0 +1,10 @@
+.git
+.env
+.env.*
+node_modules
+artifacts
+design-references
+data
+*.zip
+*.log
+.DS_Store

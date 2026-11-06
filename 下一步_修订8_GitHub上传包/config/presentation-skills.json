@@ -1,0 +1,10 @@
+{
+  "version": "2026-11-02.6",
+  "mode": "reviewed-adaptations",
+  "modules": [
+    {"id":"humanizer","file":"presentation-skills/language.md","upstream":"https://github.com/blader/humanizer","scope":"自然、具体的表达；保留事实与条件"},
+    {"id":"jobok","file":"presentation-skills/evidence.md","upstream":"https://github.com/GresonKwan/JobOK","scope":"个人证据、岗位要求、缺口和行动逐项对应"},
+    {"id":"career-ops","file":"presentation-skills/jobs.md","upstream":"https://github.com/career-ops-hq/career-ops","scope":"对照用户提供的多个岗位；不扫描、不投递、不计总分"},
+    {"id":"practical-lens","file":"presentation-skills/practical.md","upstream":"https://github.com/alchaincyf/zhangxuefeng-skill","scope":"成本、门槛和退出代价的提问；舍弃人物口吻与偏见"}
+  ]
+}

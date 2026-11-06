@@ -1,0 +1,254 @@
+[
+  {
+    "code": "V",
+    "name": "价值目的",
+    "layer": "人（价值取向）",
+    "definition": "个体在职业与生涯选择中用以评价与取舍的稳定标准；区分「目的性」（内隐的动机性标准）与「手段性」（外显的条件性标准）",
+    "type": "分类（维度域）+ 排序",
+    "operation": "按价值维度分记：①李克特1–5重要性评分；②全部维度的强制排序（rank 1..7）。两者分别记录，不得合成总分",
+    "reference": "理论：Schwartz(1992)；Super(1957)；金盛华、李雪(2005)。测量：金盛华、李雪(2005)《大学生职业价值观量表》",
+    "limitations": "自设7维为改编方案，非原量表原样；跨源比较统一取Top3",
+    "origin": {
+      "sheet": "1-变量总表",
+      "row": 3
+    }
+  },
+  {
+    "code": "S",
+    "name": "身份与道路边界",
+    "layer": "人（自我/身份）",
+    "definition": "「什么样的路对我来说像是可能的、可接受的」；自我理解 ≠ 真实能力，不是统一潜变量",
+    "type": "分类 + 排序",
+    "operation": "①身份内容域分类；②探索程度1–5；③承诺程度1–5；④由探索×承诺交叉归类同一性状态；⑤对具体路径的可接受程度",
+    "reference": "理论：Marcia(1966)；Tajfel & Turner(1979)。测量：EOM-EIS-II(Bennion & Adams,1986)；秦攀博(2009)大学生职业认同问卷",
+    "limitations": "不得由受访者直接自选状态，必须先测探索与承诺",
+    "origin": {
+      "sheet": "1-变量总表",
+      "row": 4
+    }
+  },
+  {
+    "code": "K",
+    "name": "实际能力与资源",
+    "layer": "人（能力/资源）",
+    "definition": "目前能完成什么、具备何种资格、能实际调用什么支持；实际资源 ≠「我相信有人帮」",
+    "type": "分类 + 数值",
+    "operation": "资格类型分类；最高学历按受教育程度代码；经济资源记录区间",
+    "reference": "理论：Becker(1964)；Coleman(1988)；Lin(2001)；边燕杰。测量：CFPS BC5/E4；FO7/FO3",
+    "limitations": "社会资本仅能间接代理",
+    "origin": {
+      "sheet": "1-变量总表",
+      "row": 5
+    }
+  },
+  {
+    "code": "Z",
+    "name": "制度与机会",
+    "layer": "条件（制度机会）",
+    "definition": "学校供给、资格、时间、钱、地点、照料责任与分配方式；机会如何进入",
+    "type": "分类",
+    "operation": "机会来源分类；单位性质分类；是否有编制",
+    "reference": "理论：机会结构理论；Doeringer & Piore(1971)。测量：CFPS KGD2A/QG2/QG2032",
+    "limitations": "CFPS 为在职者视角，非在校生机会进入",
+    "origin": {
+      "sheet": "1-变量总表",
+      "row": 6
+    }
+  },
+  {
+    "code": "C",
+    "name": "现实约束",
+    "layer": "条件（现实约束）",
+    "definition": "学校供给、资格、时间、钱、地点、照料责任；现实不可达 ≠ 主观认为不可达",
+    "type": "分类 + 排序（严重度）",
+    "operation": "约束类型分类（可多选）；严重度分轻/中/重",
+    "reference": "理论：Swanson & Woitke(1997)；Lent et al.(2000)。测量：CFPS BC6；CGSS d295/d296（反向）",
+    "limitations": "CGSS 反向题仅近似地理/职业妥协底线",
+    "origin": {
+      "sheet": "1-变量总表",
+      "row": 7
+    }
+  },
+  {
+    "code": "H°",
+    "name": "客观硬条件",
+    "layer": "条件（客观硬条件）",
+    "definition": "对照外部客观标准逐项核验的硬门槛（学历、证书、报名资格等）",
+    "type": "分类",
+    "operation": "逐项记录满足状态 → 按明确规则汇总 → 「部分满足」须写明判定标准",
+    "reference": "理论：理论整合稿 v1.1。测量：外部客观标准核验",
+    "limitations": "主观自评不可替代客观核验",
+    "origin": {
+      "sheet": "1-变量总表",
+      "row": 8
+    }
+  },
+  {
+    "code": "h",
+    "name": "个人底线",
+    "layer": "人（个人底线）",
+    "definition": "个体明确表示不愿妥协的底线内容",
+    "type": "分类 + 数值（阈值）",
+    "operation": "底线内容分类；收入底线记录具体下限金额（阈值而非分类）",
+    "reference": "理论：决策中非协商偏好；价值冲突研究。测量：CGSS d291–d296（代理）",
+    "limitations": "CGSS 为在职者失业规避意愿，非学生择业底线",
+    "origin": {
+      "sheet": "1-变量总表",
+      "row": 9
+    }
+  },
+  {
+    "code": "E",
+    "name": "历史经历",
+    "layer": "经历（学习经验）",
+    "definition": "个体既往经历事件的时间序列，构成后续认知、兴趣与行动的学习经验基础",
+    "type": "分类 + 数值（日期/时长）",
+    "operation": "按「经历ID」建行：经历类型、起止日期、持续时长、是否发生、获得的能力与资源",
+    "reference": "理论：Lent, Brown & Hackett(1994) 学习经验；Stumpf et al.(1983)。测量：项目自采为主",
+    "limitations": "CFPS QGA101/QGA301/QGA302 仅覆盖实习一类经历",
+    "origin": {
+      "sheet": "1-变量总表",
+      "row": 10
+    }
+  },
+  {
+    "code": "SE_task",
+    "name": "任务自我效能",
+    "layer": "更新（知识与信念）",
+    "definition": "「我能完成这一具体任务吗」——针对某一具体、可界定的职业任务的能力信心",
+    "type": "排序（1–5）",
+    "operation": "针对具体任务逐项评分1–5；须与实际结果变量对应",
+    "reference": "理论：Bandura(1986,1997)；Betz & Hackett(1981)；Lent & Brown(2006)。测量：无成熟三因子量表，建议基于 CDMSE(彭永新、龙立荣,2001) 改编",
+    "limitations": "三分类为项目自建划分（理论预设），未经区分效度验证",
+    "origin": {
+      "sheet": "1-变量总表",
+      "row": 11
+    }
+  },
+  {
+    "code": "SE_process",
+    "name": "过程自我效能",
+    "layer": "更新（知识与信念）",
+    "definition": "「我能管理完整流程吗」——计划、信息收集、流程推进与执行的信心",
+    "type": "排序（1–5）",
+    "operation": "针对流程性任务逐项评分1–5；近似 CDMSE 收集信息+制定规划维度",
+    "reference": "理论：Lent & Brown(2006,2013)。测量：CDMSE(彭永新、龙立荣,2001)",
+    "limitations": "与 task SE 的区分需 EFA/CFA 验证",
+    "origin": {
+      "sheet": "1-变量总表",
+      "row": 12
+    }
+  },
+  {
+    "code": "SE_coping",
+    "name": "应对自我效能",
+    "layer": "更新（知识与信念）",
+    "definition": "「遇到障碍我能扛过去吗」——面对阻碍、挫折与不确定时的应对信心",
+    "type": "排序（1–5）",
+    "operation": "针对障碍情境逐项评分1–5；近似 CDMSE 问题解决维度",
+    "reference": "理论：Lent & Brown(2006,2013)。测量：CDMSE 问题解决分量表",
+    "limitations": "CDMSE 问题解决分量表 α=0.6774，内部一致性偏低，须谨慎解释",
+    "origin": {
+      "sheet": "1-变量总表",
+      "row": 13
+    }
+  },
+  {
+    "code": "P",
+    "name": "路径知识",
+    "layer": "更新（知识与信念）",
+    "definition": "对路径事实的认识，可能正确也可能错误；准确性须由外部事实核验",
+    "type": "分类",
+    "operation": "记录知识内容 → 判定正确/错误/未知 → 注明外部核验依据",
+    "reference": "理论：理论整合稿 v1.1；路径事实知识准确性研究",
+    "limitations": "自认知道 ≠ 知识正确",
+    "origin": {
+      "sheet": "1-变量总表",
+      "row": 14
+    }
+  },
+  {
+    "code": "OE",
+    "name": "结果预期",
+    "layer": "更新（知识与信念）",
+    "definition": "「如果做了X可能带来什么」；须区分后果类型、主观可能性、预期强度与效价",
+    "type": "分类 + 排序",
+    "operation": "①后果类型（多选分类）；②主观发生可能性（分档）；③预期强度1–5；④效价1–5。四者分记，不得相互替代",
+    "reference": "理论：Lent, Brown & Hackett(1994)；Lent & Brown(2006)。测量：VOE-R 中文版（史卉等译，原量表 McWhirter et al.2000；Metheny & McWhirter 2013 修订，12题 Likert 4点）",
+    "limitations": "效价 ≠ 概率，效价 ≠ 重要性",
+    "origin": {
+      "sheet": "1-变量总表",
+      "row": 15
+    }
+  },
+  {
+    "code": "I",
+    "name": "活动兴趣",
+    "layer": "更新（知识与信念）",
+    "definition": "对某类活动的兴趣与喜好；兴趣 ≠ 参与行为 ≠ 行动结果",
+    "type": "分类 + 排序",
+    "operation": "活动类型分类 + 兴趣程度1–5",
+    "reference": "理论：Holland(1959,1997) RIASEC；Lent et al.(1994) 兴趣模型",
+    "limitations": "CFPS/CGSS 均无职业兴趣题项 → 无法观测",
+    "origin": {
+      "sheet": "1-变量总表",
+      "row": 16
+    }
+  },
+  {
+    "code": "q",
+    "name": "进入判断",
+    "layer": "更新（知识与信念）",
+    "definition": "个体对「我能否进入这条路径」的整体判断；判断 ≠ 客观可进入性",
+    "type": "分类 + 排序",
+    "operation": "判断结果分类（能/不能/不确定）+ 信心程度1–5 + 判断依据",
+    "reference": "理论：理论整合稿 v1.1；SCCT 自我效能与结果预期对选择的影响",
+    "limitations": "主观判断需与 H° 客观核验结果对照",
+    "origin": {
+      "sheet": "1-变量总表",
+      "row": 17
+    }
+  },
+  {
+    "code": "G",
+    "name": "目标",
+    "layer": "更新 → 行动",
+    "definition": "想进入哪条路、下一步做什么、希望达到什么标准；须分记目标对象、承诺程度与完成期限",
+    "type": "分类 + 排序 + 数值（日期）",
+    "operation": "①目标对象分类（选择/行动/表现目标）；②承诺程度1–5；③完成期限（日期或时段）",
+    "reference": "理论：Lent & Brown(2013) CSM；Locke & Latham(2002) 目标设置理论",
+    "limitations": "愿望 ≠ 目标；无期限与承诺记录者不视为目标",
+    "origin": {
+      "sheet": "1-变量总表",
+      "row": 18
+    }
+  },
+  {
+    "code": "A",
+    "name": "行动",
+    "layer": "行动",
+    "definition": "实际做了什么；表达愿望 ≠ 发生行动。须分记是否、次数、持续时长、发生日期与类型",
+    "type": "分类 + 数值",
+    "operation": "①是否行动（是/否/进行中/未知）；②行动次数；③持续时长区间；④发生日期；⑤行动类型（多选）",
+    "reference": "理论：Lent & Brown(2013) CSM 行动阶段。测量：许存(2008) 修订 CES 18题4维；CFPS QGA101/QGB5",
+    "limitations": "实习/求职行为可作 A 的代理，但不能等同于全部行动",
+    "origin": {
+      "sheet": "1-变量总表",
+      "row": 19
+    }
+  },
+  {
+    "code": "Y",
+    "name": "实际结果",
+    "layer": "结果",
+    "definition": "是否获得回应、面试、录取或实际进入岗位；须逐项分别编码，禁止合成为「成功分数」",
+    "type": "分类",
+    "operation": "Y1获得回应 / Y2获得面试 / Y3获得录取 / Y4实际进入，各自独立编码",
+    "reference": "理论：Lent, Brown & Hackett(1994)；Lent & Brown(2013)。测量：CFPS QG5/JOBCLASS",
+    "limitations": "当前就业状态不能倒推申请—面试—录取过程",
+    "origin": {
+      "sheet": "1-变量总表",
+      "row": 20
+    }
+  }
+]

@@ -1,0 +1,10 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {renderDecisionGuide,renderOrderedActions} from '../public/decision-guide.mjs';
+import {validateModelOutput} from '../lib/providers.mjs';
+const context={definitions:[{id:'profile.moneyBand'}],ruleResults:{findings:[]},sources:[],cards:[]};
+const result=()=>({summary:'先确认自己能负担的金额，再比较具体项目。',observations:[],explorations:[],actions:[{priority:1,whyFirst:'确认是否负担得起',dependsOn:[],title:'列出预算上限',steps:['写明现有储蓄和可承担的总支出'],timeMinutes:20,deliverable:'预算清单',reviewQuestions:['是否包含返家费用？'],fieldRefs:['profile.moneyBand'],sourceIds:[]}],questions:[],factRefs:[],informationNeeds:[{priority:1,question:'项目总费用是多少？',why:'判断是否超过预算',whereToCheck:'向项目办公室询问学费、生活费及资助到账时间',doneWhen:'有按学期列出的收支表',ifThen:'超出预算时先找有资助的项目，不急着申请',fieldRefs:['profile.moneyBand'],ruleRefs:[]}],alternatives:[{status:'hypothesis',title:'有资助的周边地区项目',reason:'希望体验不同环境，同时控制支出',unknowns:['资助何时到账','能否兼顾返家'],firstCheck:'先核对具体项目资助说明',fieldRefs:['profile.moneyBand']}]});
+test('无资料卡仍可提出关联本人需求的待核实方向，不能冒充具体机会',()=>{const r=validateModelOutput(result(),context);assert.equal(r.alternatives[0].status,'hypothesis');const d=result();d.explorations=[{cardId:'invented',reason:'推荐',nextStep:'申请'}];assert.throws(()=>validateModelOutput(d,context),/资料卡/);});
+test('信息和行动拒绝错序、虚构依据和向后依赖',()=>{for(const change of [d=>d.informationNeeds[0].priority=2,d=>d.informationNeeds[0].fieldRefs=['invented'],d=>d.actions[0].dependsOn=[1],d=>d.alternatives[0].status='verified',d=>d.informationNeeds[0].doneWhen='']){const d=result();change(d);assert.throws(()=>validateModelOutput(d,context));}});
+test('显示查询途径、停止条件与不同答案的处理；文字转义',()=>{const d=result(),h=renderDecisionGuide({ai:d})+renderOrderedActions(d.actions);for(const x of ['按这个顺序查','去哪里查、问谁','查到这里就够了','接下来怎么选','还可以从这些方向找','先做它的原因','做完后看看'])assert.ok(h.includes(x));assert.ok(h.includes('<ol'));d.informationNeeds[0].question='<script>test</script>';assert.ok(renderDecisionGuide({ai:d}).includes('&lt;script&gt;'));});
+test('旧报告保留原追问，不伪装成新生成步骤',()=>{const h=renderDecisionGuide({ai:{questions:['每周能投入多少时间？']}});assert.ok(h.includes('保留原有追问'));assert.ok(h.includes('每周能投入多少时间'));});
